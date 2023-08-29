@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('../../stdin', 'utf8');
+const input = require('fs').readFileSync('../stdin', 'utf8');
 const lines = input.split('\n');
 
 const workerNumber = parseInt(lines[0]);
