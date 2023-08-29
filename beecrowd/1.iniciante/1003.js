@@ -3,4 +3,4 @@ const lines = input.split('\n').map(input => parseInt(input));
 
 const [a, b] = lines;
 
-console.log(`SOMA = ${a+b}`);
+console.log(`PROD = ${a*b}`);
