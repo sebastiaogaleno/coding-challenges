@@ -27,3 +27,47 @@ Have you ever heard of projects powered by coffee? Well, this one operates using
 Let's turn coffee beans into brilliant ideas! Click below and let your caffeination collaboration!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://mpago.la/2DBLGQA)
+
+# How to Install and Run
+
+Clone this project using git:
+
+```bash
+$ cd ../Documents/Projects
+$ git clone git@github.com:sebastiaogaleno/coding-challenges.git
+```
+
+Install node.js through this link:
+
+```
+https://nodejs.org/en/download
+```
+
+Verify that Node.js was properly installed:
+```bash
+$ node --version
+```
+
+Check if the npm was installed:
+```bash
+$ npm --version
+```
+
+Update the npm version:
+```bash
+$ npm install -g npm@latest
+```
+
+Configure the challenge input file:
+
+```
+ATTENTION => You need modify the input file before run any challenge.
+
+The file named "stdin" is the data input for beecrowd challenges and is located at "../beecrowd/stdin".
+```
+
+Example of how to run one challenge of this project:
+```bash
+$ cd ../coding-challenges/beecrowd/1.beginner
+$ node 1001.js
+```
